@@ -1,0 +1,42 @@
+/* Place all the styles related to the home controller here.
+ They will automatically be included in application.css.
+ You can use Sass (SCSS) here: http://sass-lang.com/
+*/
+
+ul {
+  position: fixed;
+  float: center;
+}
+
+.background {
+  background-color: red;
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  /*position: relative;*/
+}
+
+.finder {
+  margin-top: 25%;
+  /*position: absolute;*/
+}
+
+.price-point{
+  width: 100%;
+  height: 40%;
+  margin: 2%;
+  margin-left: 60%;
+  margin-top: 50%;
+  /*mragin-bottom: ;*/
+  /*margin-right: %;*/
+  background-color: blue;
+  position: absolute;
+  bottom: 0%;
+  padding: 2%;
+}
+
+.result {
+  background-color: yellow;
+  position: relative;
+}
